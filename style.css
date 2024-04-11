@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.content-section /** присовить потом всему, кроме main **/ { 
+    max-width: 360px;
+    margin-left: auto;
+    margin-left: auto;
+}
+
+.content-section_theme_dark {
+    background-color: black;
+    width: 200px;
+    height: 100px;
+}
+
+.content-section_theme_bright {
+    background-color: yellow;
+    width: 400px;
+    height: 100px;
+}
