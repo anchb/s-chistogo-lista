@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.content-section {
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: white;
+}
+
+.content-section_theme_bright {
+  background-color: #FEE42A;
+  color: #131313
+}
+
+.header {
+  padding: 24px 20px;
+  padding-bottom: 7px;
+  display:flex;
+  justify-content: space-between;
+  color: #F5F5F5;
+}
+
+.header__logo-image {
+ width: 78.45px;
+ height: 15.43px;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  row-gap: 12px;
+}
+
+.header__menu-link {
+  text-decoration: underline;
+}
+
+.header__menu-item_active {
+  color:#F5F5F5;
+}
+
+.cover {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  background-image: url("../images/cover.svg");
+  background-position: right;
+  background-size: 95% auto;
+  background-repeat: no-repeat;
+  min-height: 221px;
+}
+
+.cover__title {
+  display: flex;
+  padding-top: 0;
+  font-family: 'EB Garamond';
+  font-size: 72px;
+  flex-direction: column;
+  line-height: 100%;
+  padding-right: 24px;
+}
+
+.accent-span-cover {
+  display:block;
+}
+
+.intro {
+  padding: 0px 20px 38px;
+}
+
+.intro__heading {
+  color: gray;
+  display: flex;
+  line-height: 120%;
+  padding-bottom: 24px;
+  letter-spacing: 0;
+}
+
+.intro__title {
+  font-size: 16px;
+} 
+
+.intro__date {
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 23px;
+}
+
+.intro__accent-span {
+  color: #F5F5F5;
+  line-height: 21.6px;
+  letter-spacing: 0;
+}
+
+.reasons {
+  padding: 40px 20px 39px;
+}
+
+.content-section__subtitle {
+  font-family: 'EB Garamond', 'serif';
+  font-size: 28px;
+  line-height: 115%;
+  font-weight: 500;
+  padding-bottom: 32px;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+  line-height: 27px;
+  padding-bottom: 32px;
+}
+
+.content-section__list {
+  list-style: disc;
+  padding-left: 18px;
+  padding-right: 0px;
+}
+
+.content-section__list-item {
+  padding-bottom: 16px;
+}
+
+.content-section__list-item-special {
+  padding-bottom: 0;
+}
+
+.content-section__accent-span {
+  font-size: 16px;
+  line-height: 21.6px;
+  letter-spacing: 0%;
+  padding-right: 0px
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
+
+
+.how_to {
+  padding: 40px 20px 0px 20px;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.card {
+  line-height: 21.6px;
+}
+
+.special_card {
+  margin-bottom: 60px
+}
+
+.card__author {
+  padding: 20px 163px 8px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__author-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 135%;
+  white-space: nowrap;
+  padding-top: 8px
+}
+
+.card__author-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.card__title {
+  font-family: 'EB Garamond', 'serif';
+  font-weight: 500;
+  font-size: 22px;
+  padding-bottom: 8px;
+  line-height: 135%
+}
+
+.card__content {
+  padding: 0px 20px 20px 20px;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+  color: #F5F5F5;
+  border-radius: 30px;
+}
+
+.card_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+  border-radius: 30px;
+}
+
+.card_text-only .card__title {
+  padding-top: 20px
+}
+
+.footer {
+  padding:20px;
+  border-top: 1px solid #FEE42A ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__links-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  column-gap: 16px;
+}
+
+.footer__links-list-item {
+  font-size: 14px;
+}
